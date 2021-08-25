@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La sonrisa de Luisa | Contacta con nosotros</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">   
+    <script src="https://kit.fontawesome.com/8afd4e502a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" crossorigin="anonymous"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="myValidator.js"></script>
+
+	  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Nuestro CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header class="w-100">
+        <div class="small-header">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><h1>La sonrisa de Luisa</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about_us.html" class>¿Quiénes somos?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./products.html">Nuestros productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contacta con nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="medium-header">
+          <h1>La sonrisa de Luisa</h1>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div id="navbarNav">
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./about_us.html" class>¿Quiénes somos?</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./products.html">Nuestros productos</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="./contact.html">Contacta con nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="lg-header">
+          <h1 class="text-center">La sonrisa de Luisa</h1>
+          <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-end">
+            <div id="navbarNav">
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./about_us.html" class>¿Quiénes somos?</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./products.html">Nuestros productos</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="./contact.html">Contacta con nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        </div>
+      </header>
+      <main class="container-fluid mt-3">
+        <h1 class="text-center mb-3">Contacta con nosotros</h1>
+          <form class="p-3" method="post" id="form" role="form" autocomplete="off">
+              <div class="small-form">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="name" class="form-control" name="nombre" placeholder="Nombre">
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                </div>
+                  <div class="form-group">
+                    <label for="surnames">Apellidos</label>
+                    <input type="surnames" name="apellidos" class="form-control" placeholder="Apellido1 Apellido2">
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="phone" name="telefono" class="form-control" placeholder="">
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Dirección de correo electrónico</label>
+                    <input type="email" name="email" class="form-control" placeholder="name@example.com">
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <div>
+                      <label for="message">Mensaje</label>
+                      <textarea class="form-control" name="mensaje" rows="3"></textarea>
+                      <span id="error" class="help-block my-1 text-danger"></span>
+                    </div>
+                  </div>
+                  <div class="text-right">
+                    <button type="submit" id="submit" class="btn">Enviar</button>
+                  </div>
+              </div>
+              <div class="medium-form">
+                <div class="form-group row">
+                    <div class="col text-center">
+                      <label for="name">Nombre</label>
+                    </div>
+                    <div class="col form-group">
+                      <input type="name" name="nombre" class="form-control" placeholder="Nombre">
+                      <span id="error" class="help-block my-1 text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col text-center">
+                    <label for="surnames">Apellidos</label>
+                  </div>
+                  <div class="col form-group">
+                    <input type="surnames" name="apellidos" class="form-control" placeholder="Apellido1 Apellido2">
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col text-center">
+                    <label for="phone">Teléfono</label>
+                  </div>
+                  <div class="col form-group">
+                    <input type="phone" name="telefono" class="form-control">
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col text-center">
+                    <label for="email">Dirección de correo electrónico</label>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder= name@example.com>
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                  </div>
+                </div>
+                <div class="col form-group">
+                  <div>
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" name="mensaje" rows="3"></textarea>
+                    <span id="error" class="help-block my-1 text-danger"></span>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <button type="submit" id="submit" class="btn">Enviar</button>
+                </div>
+              </div>
+              <div class="lg-form">
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group row">
+                      <div class="col text-center">
+                        <label for="name">Nombre</label>
+                      </div>
+                      <div class="col form-group">
+                        <input type="name" name="nombre" class="form-control" placeholder="Nombre">
+                        <span id="error" class="help-block my-1 text-danger"></span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col text-center">
+                        <label for="surnames">Apellidos</label>
+                      </div>
+                      <div class="col form-group">
+                        <input type="surnames" name="apellidos" class="form-control" placeholder="Apellido1 Apellido2">
+                        <span id="error" class="help-block my-1 text-danger"></span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col text-center">
+                        <label for="phone">Teléfono</label>
+                      </div>
+                      <div class="col form-group">
+                        <input type="phone" name="telefono" class="form-control">
+                        <span id="error" class="help-block my-1 text-danger"></span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col text-center">
+                        <label for="email">Dirección de correo electrónico</label>
+                      </div>
+                      <div class="col form-group">
+                        <input type="email" name="email" class="form-control" placeholder= name@example.com>
+                        <span id="error" class="help-block my-1 text-danger"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col form-group">
+                    <div>
+                      <label for="message">Mensaje</label>
+                      <textarea class="form-control" name="mensaje" rows="3"></textarea>
+                      <span id="error" class="help-block my-1 text-danger"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <button type="submit" id="submit" value="" class="btn">Enviar</button>
+                </div>
+              </div>
+          </form>
+
+           <!--Div para mostrar la salida de los datos del formulario-->
+			    <div class="col-xs-6">
+				    <h1 class="display-2">SALIDA</h1>
+            <div id="salida_form"></div>
+			    </div>
+      </main>
+      <footer class="mt-4 p-2">
+        <div class="small-footer">
+          <div class="row">
+            <div class="col">
+              <p>© Copyright and image Licesing</p>
+            </div>
+            <div class="col">
+              <div class="text-right">
+                <i class="fab fa-facebook-square mx-1"></i>
+                <i class="fab fa-instagram-square mx-1"></i>
+                <i class="fab fa-twitter-square mx-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="medium-footer p-2 mx-2">
+          <div class="row">
+            <p class="text-left">© Copyright and image Licesing</p>
+          </div>
+          <div class="row">
+            <i class="fab fa-facebook-square mx-1"></i>
+            <i class="fab fa-instagram-square mx-1"></i>
+            <i class="fab fa-twitter-square mx-1"></i>
+          </div>
+        </div>
+        <div class="lg-footer p-2 mx-2">
+          <div class="row">
+            <div class="col">
+              <p class="text-left">© Copyright and image Licesing</p>
+            </div>
+            <div class="col d-flex justify-content-end">
+            <i class="fab fa-facebook-square mx-1"></i>
+            <i class="fab fa-instagram-square mx-1"></i>
+            <i class="fab fa-twitter-square mx-1"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- <script>
+        $(function() { // Iniciamos jQuery
+          var nameRegExp = /^[ÁÉÍÓÚA-Z][a-záéíóú]+(\s+[ÁÉÍÓÚA-Z]?[a-záéíóú]+)*$/;
+          var phoneRegExp = /(\+34|0034|34)?[ -]*(6|7)[ -]*([0-9][ -]*){8}/;
+          var emailRegExp = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/
+          
+
+          // Modificamos el document.getElementbyId de JS y pillamos nuestro elmento en jQuery por medio de su id unica
+
+          var name = $("#name");
+          var surnames = $("#surnames");
+          var phone = $("#phone");
+          var email = $("#email");
+          var submit = $("#submit");
+          var messages = $("#messages");
+
+          // Cambiamos el addEventListener de Js por el click en Jquery
+          submit.click(function(event) {
+
+            myValidate(name.value, nameRegExp, "Nombre obligatorio", "Introduce un nombre válido. Debe empezar por mayúscula");
+            myValidate(surnames.value, nameRegExp, "Apellidos obligatorios", "Introduce unos apellidos válidos. Deben empezar por mayúscula");
+            myValidate(phone.value, phoneRegExp, "Teléfono obligatorio", "Introduce un teléfono válido");
+            myValidate(email.value, emailRegExp, "Email obligatorio", "Introduce un email válido");
+            
+          });
+
+          function validateEmpty(value) {
+            return value == "";
+          }
+
+          function validateRegExp(value,expReg) {
+            return expReg.test(value);
+          }
+
+          function myValidate(value, expReg, emptyMessage, regExpMessage) {
+            if (validateEmpty(value)) {
+              myCreateMessage(emptyMessage);
+            } else {
+              if (!validateRegExp(value, expReg)) {
+                myCreateMessage(regExpMessage);
+              }
+            }
+          }
+
+          function myCreateMessage(textMessage) {
+            messages.show(); // Función que cambia para mostrar el elemento y la empleamos en Jquery. La hemos cambiado por el display block
+            messages.append($("<p>" + textMessage + "</p>"));
+          }
+        });
+
+      </script> -->
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

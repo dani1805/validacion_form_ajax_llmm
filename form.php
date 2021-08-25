@@ -1,0 +1,1 @@
+<?php var_dump($_POST); ?> <!--Mostrar datos desde AJAX-->
